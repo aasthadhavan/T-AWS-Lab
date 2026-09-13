@@ -24,5 +24,5 @@ jobs:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         with:
           args: >
-            -Dsonar.projectKey= aasthadhavan_T-AWS-Lab
-            -Dsonar.organization= aasthadhavan
+            -Dsonar.projectKey=aasthadhavan_T-AWS-Lab
+            -Dsonar.organization=aasthadhavan
